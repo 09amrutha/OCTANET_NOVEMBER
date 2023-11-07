@@ -1,0 +1,75 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Roboto', sans-serif;
+
+*/
+.nav1{
+    width: auto;
+    height: 30px;
+    color:blanchedalmond;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1  i{
+    margin: 0 6px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 10px;
+    background: #227de6;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 1px 10px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7) 80%,#227de6) ,url("flight.png");
+    background-size: 100% 100% ;
+}
+.h-text{
+    max-width: 600px;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    color: aliceblue;
+    background: #227de6;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 3px;
+}
